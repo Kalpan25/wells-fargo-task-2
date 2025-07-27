@@ -11,7 +11,7 @@ public class Client {
     private long clientId;      // Primary Key  (PK)
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name ="advisor_id")  // (Foreign key (FK)
+    @JoinColumn(name ="advisorid")  // (Foreign key (FK)
     private Advisor advisor;
 
     @Column(nullable = false)
